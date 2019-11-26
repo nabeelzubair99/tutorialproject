@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign Up</title>
+    <link rel="stylesheet" type="text/css" href="bulma/css/bulma.min.css">
+    <style>
+        @import "bulma/sass/utilities/_all.sass";
+        @import "bulma/sass/elements/button.sass";
+    </style>
+</head>
+
+<body>
+    <section class="hero is-dark">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title">
+                    Bulma-Book : Sign Up
+                </h1>
+                <h2 class="subtitle">
+                    Please fill out all the required fields to start using Bulma-Book
+                </h2>
+            </div>
+        </div>
+    </section>
+    <div class="columns is-mobile is-centered">
+
+        <div class="column is-half">
+            <div class="columns is-mobile is-centered">
+                <figure class="image is-128x128">
+                    <img class="is-rounded" src="pics/bullmalogo.jpg">
+                </figure>
+            </div>
+        </div>
+    </div>
+
+    <div class="columns is-mobile is-centered">
+
+        <form>
+            <progress class="progress is-link" value="100" max="100">30%</progress>
+            <div class="field">
+                <label class="label">First Name</label>
+                <div class="control">
+                    <input class="input" type="text" placeholder="e.g Alex ">
+                </div>
+            </div>
+
+            <div class="field">
+                <label class="label">Last Name</label>
+                <div class="control">
+                    <input class="input" type="text" placeholder="e.g Smith">
+                </div>
+            </div>
+
+            <div class="field">
+                <label class="label">Email</label>
+                <div class="control">
+                    <input class="input" type="email" placeholder="e.g. alexsmith@gmail.com">
+                </div>
+            </div>
+
+            <div class="field">
+                <label class="label">Password</label>
+                <div class="control">
+                    <input class="input" type="password">
+                </div>
+            </div>
+
+            <div class="field">
+                <label class="label">Re-Enter Password</label>
+                <div class="control">
+                    <input class="input" type="password">
+                </div>
+            </div>
+
+            <div class="field">
+                <label class="label">I am: </label>
+                <div class="control">
+                    <div class="select is-info">
+                        <select>
+                            <option>---</option>
+                            <option>Male</option>
+                            <option>Female</option>
+                            <option>Prefer not to say</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="field">
+                <p class="control">
+                    <div class="columns is-mobile is-centered">
+                        <button class="button is-link">
+                            Sign-Up
+                        </button>
+
+
+                    </div>
+
+                </p>
+            </div>
+        </form>
+    </div>
+
+</body>
+
+</html>
